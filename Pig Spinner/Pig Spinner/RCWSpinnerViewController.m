@@ -83,7 +83,7 @@
     self.spinnerBehavior.action = ^{
         CGAffineTransform transform = [(UIView *)weakSelf.spinnerBehavior.items.firstObject transform];
         CGFloat angle = atan2(transform.b, transform.a);
-        [weakSelf highlightSegmentAtAngle:angle];
+        [weakSelf showNameOfSegmentAtAngle:angle];
     };
 
     [self.animator addBehavior:self.spinnerBehavior];
@@ -91,7 +91,7 @@
     self.what.center = CGPointMake(self.background.center.x, self.background.center.y + side/2.4);
 }
 
-- (void)highlightSegmentAtAngle:(CGFloat)angle
+- (void)showNameOfSegmentAtAngle:(CGFloat)angle
 {
     if (angle > 0 && angle <= 1.230600) {
         self.what.text = @"2 FENCES";
@@ -116,13 +116,14 @@
         case UIGestureRecognizerStateEnded:
         case UIGestureRecognizerStateCancelled: {
             CGPoint velocity = [recognizer velocityInView:self.background];
-            CGFloat angle = 0;
+            CGFloat amount;
             if (fabs(velocity.x) > fabs(velocity.y)) {
-                angle = velocity.x;
+                amount = velocity.x;
             } else {
-                angle = velocity.y;
+                amount = velocity.y;
             }
-            [self.spinnerBehavior addAngularVelocity:0-angle forItem:self.spinner];
+            if (amount < 0) amount *= -1;
+            [self.spinnerBehavior addAngularVelocity:amount forItem:self.spinner];
             break;
         }
 
