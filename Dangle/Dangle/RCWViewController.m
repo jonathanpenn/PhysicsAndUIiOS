@@ -9,6 +9,7 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
     UIView *ball = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     ball.center = CGPointMake(self.view.center.x + 150, 70);
     ball.backgroundColor = [UIColor redColor];
@@ -84,15 +85,17 @@
 {
     CGRect keyboardFrame = [(NSValue *)note.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     keyboardFrame = [self.view convertRect:keyboardFrame fromView:self.view.window];
-    CGSize size = self.view.bounds.size;
-    self.view.bounds = CGRectMake(0, 0, size.width, size.height - keyboardFrame.size.height);
+    CGRect viewFrame = self.view.frame;
+    viewFrame.size.height -= keyboardFrame.size.height;
+    self.view.frame = viewFrame;
 }
 
 - (void)keyboardWillHide:(NSNotification *)note
 {
     CGRect keyboardFrame = [(NSValue *)note.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
-    CGSize size = self.view.bounds.size;
-    self.view.bounds = CGRectMake(0, 0, size.width, size.height + keyboardFrame.size.height);
+    CGRect viewFrame = self.view.frame;
+    viewFrame.size.height += keyboardFrame.size.height;
+    self.view.frame = viewFrame;
 }
 
 @end
