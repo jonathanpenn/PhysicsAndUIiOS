@@ -48,6 +48,8 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self positionViewsInSize:self.view.bounds.size];
 }
 
