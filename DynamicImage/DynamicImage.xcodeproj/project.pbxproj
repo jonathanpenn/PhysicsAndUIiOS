@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABFADD9C18FC47D500529077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABFADD9A18FC47D500529077 /* InfoPlist.strings */; };
+		ABFADD9E18FC47D500529077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFADD9D18FC47D500529077 /* main.m */; };
+		ABFADDA218FC47D500529077 /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFADDA118FC47D500529077 /* RCWAppDelegate.m */; };
+		ABFADDA518FC47D500529077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFADDA318FC47D500529077 /* Main.storyboard */; };
+		ABFADDA818FC47D500529077 /* RCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFADDA718FC47D500529077 /* RCWViewController.m */; };
+		ABFADDAA18FC47D500529077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFADDA918FC47D500529077 /* Images.xcassets */; };
+		ABFADDC718FC48BC00529077 /* kinda-smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFADDC618FC48BC00529077 /* kinda-smiley.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABFADD8E18FC47D500529077 /* DynamicImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFADD9918FC47D500529077 /* DynamicImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicImage-Info.plist"; sourceTree = "<group>"; };
+		ABFADD9B18FC47D500529077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABFADD9D18FC47D500529077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFADD9F18FC47D500529077 /* DynamicImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicImage-Prefix.pch"; sourceTree = "<group>"; };
+		ABFADDA018FC47D500529077 /* RCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWAppDelegate.h; sourceTree = "<group>"; };
+		ABFADDA118FC47D500529077 /* RCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWAppDelegate.m; sourceTree = "<group>"; };
+		ABFADDA418FC47D500529077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFADDA618FC47D500529077 /* RCWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWViewController.h; sourceTree = "<group>"; };
+		ABFADDA718FC47D500529077 /* RCWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWViewController.m; sourceTree = "<group>"; };
+		ABFADDA918FC47D500529077 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABFADDC618FC48BC00529077 /* kinda-smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kinda-smiley.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABFADD8B18FC47D500529077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFADD8518FC47D500529077 = {
+			isa = PBXGroup;
+			children = (
+				ABFADD9718FC47D500529077 /* DynamicImage */,
+				ABFADD8F18FC47D500529077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFADD8F18FC47D500529077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABFADD8E18FC47D500529077 /* DynamicImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFADD9718FC47D500529077 /* DynamicImage */ = {
+			isa = PBXGroup;
+			children = (
+				ABFADDA018FC47D500529077 /* RCWAppDelegate.h */,
+				ABFADDA118FC47D500529077 /* RCWAppDelegate.m */,
+				ABFADDA318FC47D500529077 /* Main.storyboard */,
+				ABFADDA618FC47D500529077 /* RCWViewController.h */,
+				ABFADDA718FC47D500529077 /* RCWViewController.m */,
+				ABFADDC618FC48BC00529077 /* kinda-smiley.png */,
+				ABFADDA918FC47D500529077 /* Images.xcassets */,
+				ABFADD9818FC47D500529077 /* Supporting Files */,
+			);
+			path = DynamicImage;
+			sourceTree = "<group>";
+		};
+		ABFADD9818FC47D500529077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFADD9918FC47D500529077 /* DynamicImage-Info.plist */,
+				ABFADD9A18FC47D500529077 /* InfoPlist.strings */,
+				ABFADD9D18FC47D500529077 /* main.m */,
+				ABFADD9F18FC47D500529077 /* DynamicImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFADD8D18FC47D500529077 /* DynamicImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFADDC018FC47D500529077 /* Build configuration list for PBXNativeTarget "DynamicImage" */;
+			buildPhases = (
+				ABFADD8A18FC47D500529077 /* Sources */,
+				ABFADD8B18FC47D500529077 /* Frameworks */,
+				ABFADD8C18FC47D500529077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicImage;
+			productName = DynamicImage;
+			productReference = ABFADD8E18FC47D500529077 /* DynamicImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABFADD8618FC47D500529077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RCW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rubber City Wizards";
+			};
+			buildConfigurationList = ABFADD8918FC47D500529077 /* Build configuration list for PBXProject "DynamicImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABFADD8518FC47D500529077;
+			productRefGroup = ABFADD8F18FC47D500529077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABFADD8D18FC47D500529077 /* DynamicImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABFADD8C18FC47D500529077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFADDAA18FC47D500529077 /* Images.xcassets in Resources */,
+				ABFADD9C18FC47D500529077 /* InfoPlist.strings in Resources */,
+				ABFADDA518FC47D500529077 /* Main.storyboard in Resources */,
+				ABFADDC718FC48BC00529077 /* kinda-smiley.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFADD8A18FC47D500529077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFADD9E18FC47D500529077 /* main.m in Sources */,
+				ABFADDA818FC47D500529077 /* RCWViewController.m in Sources */,
+				ABFADDA218FC47D500529077 /* RCWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABFADD9A18FC47D500529077 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFADD9B18FC47D500529077 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABFADDA318FC47D500529077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFADDA418FC47D500529077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABFADDBE18FC47D500529077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABFADDBF18FC47D500529077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFADDC118FC47D500529077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicImage/DynamicImage-Prefix.pch";
+				INFOPLIST_FILE = "DynamicImage/DynamicImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABFADDC218FC47D500529077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicImage/DynamicImage-Prefix.pch";
+				INFOPLIST_FILE = "DynamicImage/DynamicImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFADD8918FC47D500529077 /* Build configuration list for PBXProject "DynamicImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFADDBE18FC47D500529077 /* Debug */,
+				ABFADDBF18FC47D500529077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFADDC018FC47D500529077 /* Build configuration list for PBXNativeTarget "DynamicImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFADDC118FC47D500529077 /* Debug */,
+				ABFADDC218FC47D500529077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABFADD8618FC47D500529077 /* Project object */;
+}

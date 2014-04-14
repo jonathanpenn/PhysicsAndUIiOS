@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="RCWViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVw-AK-XAk">
+                                <rect key="frame" x="110" y="33" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.7686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="LQf-1n-2PF"/>
+                                    <constraint firstAttribute="width" constant="100" id="fd2-lt-xH4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AjL-wL-SpK">
+                                <rect key="frame" x="110" y="448" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.75706487987220694" green="0.76042807909607435" blue="0.7705176767676768" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1VC-OF-JFh"/>
+                                    <constraint firstAttribute="height" constant="100" id="e2t-DQ-BoI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kinda-smiley.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yy-Ly-cWA">
+                                <rect key="frame" x="110" y="234" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MLd-7Q-8AL" appends="YES" id="3B5-Xa-aTh"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AjL-wL-SpK" firstAttribute="top" secondItem="kVw-AK-XAk" secondAttribute="bottom" constant="315" id="DWs-9Z-Put"/>
+                            <constraint firstAttribute="centerX" secondItem="AjL-wL-SpK" secondAttribute="centerX" id="Kr9-WT-xpN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="AjL-wL-SpK" secondAttribute="bottom" constant="20" id="koi-lA-NG2"/>
+                            <constraint firstAttribute="centerX" secondItem="kVw-AK-XAk" secondAttribute="centerX" id="mfx-ml-jE3"/>
+                            <constraint firstItem="kVw-AK-XAk" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="13" id="qke-jN-hbp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dropZone1" destination="kVw-AK-XAk" id="Qq0-zp-Qyb"/>
+                        <outlet property="dropZone2" destination="AjL-wL-SpK" id="wCT-rS-A96"/>
+                        <outlet property="imageView" destination="6yy-Ly-cWA" id="k9X-jH-NDV"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="Ril-22-NLe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" id="MLd-7Q-8AL">
+                    <connections>
+                        <action selector="panned:" destination="vXZ-lx-hvc" id="viA-7m-GoR"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kinda-smiley.png" width="200" height="200"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
