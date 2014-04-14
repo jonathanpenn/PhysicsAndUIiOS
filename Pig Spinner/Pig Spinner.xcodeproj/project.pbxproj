@@ -7,39 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB6FAFF018750072002F2A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FAFEF18750072002F2A2A /* Foundation.framework */; };
-		AB6FAFF218750072002F2A2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FAFF118750072002F2A2A /* CoreGraphics.framework */; };
-		AB6FAFF418750072002F2A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FAFF318750072002F2A2A /* UIKit.framework */; };
 		AB6FAFFA18750072002F2A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6FAFF818750072002F2A2A /* InfoPlist.strings */; };
 		AB6FAFFC18750072002F2A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6FAFFB18750072002F2A2A /* main.m */; };
 		AB6FB00018750072002F2A2A /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6FAFFF18750072002F2A2A /* RCWAppDelegate.m */; };
 		AB6FB00218750072002F2A2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6FB00118750072002F2A2A /* Images.xcassets */; };
-		AB6FB00918750072002F2A2A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FB00818750072002F2A2A /* XCTest.framework */; };
-		AB6FB00A18750072002F2A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FAFEF18750072002F2A2A /* Foundation.framework */; };
-		AB6FB00B18750072002F2A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6FAFF318750072002F2A2A /* UIKit.framework */; };
-		AB6FB01318750072002F2A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6FB01118750072002F2A2A /* InfoPlist.strings */; };
-		AB6FB01518750072002F2A2A /* Pig_SpinnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6FB01418750072002F2A2A /* Pig_SpinnerTests.m */; };
 		AB6FB0201875008B002F2A2A /* RCWSpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6FB01F1875008B002F2A2A /* RCWSpinnerViewController.m */; };
 		AB6FB027187501E9002F2A2A /* RCWQuickDragRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6FB026187501E9002F2A2A /* RCWQuickDragRecognizer.m */; };
 		AB6FB02A187508D9002F2A2A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AB6FB028187508D9002F2A2A /* background.png */; };
 		AB6FB02D18750CB2002F2A2A /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = AB6FB02C18750CB2002F2A2A /* spinner.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AB6FB00C18750072002F2A2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB6FAFE418750072002F2A2A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB6FAFEB18750072002F2A2A;
-			remoteInfo = "Pig Spinner";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AB6FAFEC18750072002F2A2A /* Pig Spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pig Spinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB6FAFEF18750072002F2A2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB6FAFF118750072002F2A2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB6FAFF318750072002F2A2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB6FAFF718750072002F2A2A /* Pig Spinner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pig Spinner-Info.plist"; sourceTree = "<group>"; };
 		AB6FAFF918750072002F2A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB6FAFFB18750072002F2A2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,11 +26,6 @@
 		AB6FAFFE18750072002F2A2A /* RCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWAppDelegate.h; sourceTree = "<group>"; };
 		AB6FAFFF18750072002F2A2A /* RCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWAppDelegate.m; sourceTree = "<group>"; };
 		AB6FB00118750072002F2A2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB6FB00718750072002F2A2A /* Pig SpinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pig SpinnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB6FB00818750072002F2A2A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB6FB01018750072002F2A2A /* Pig SpinnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pig SpinnerTests-Info.plist"; sourceTree = "<group>"; };
-		AB6FB01218750072002F2A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB6FB01418750072002F2A2A /* Pig_SpinnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pig_SpinnerTests.m; sourceTree = "<group>"; };
 		AB6FB01E1875008B002F2A2A /* RCWSpinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWSpinnerViewController.h; sourceTree = "<group>"; };
 		AB6FB01F1875008B002F2A2A /* RCWSpinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWSpinnerViewController.m; sourceTree = "<group>"; };
 		AB6FB025187501E9002F2A2A /* RCWQuickDragRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWQuickDragRecognizer.h; sourceTree = "<group>"; };
@@ -65,19 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6FAFF218750072002F2A2A /* CoreGraphics.framework in Frameworks */,
-				AB6FAFF418750072002F2A2A /* UIKit.framework in Frameworks */,
-				AB6FAFF018750072002F2A2A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB6FB00418750072002F2A2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB6FB00918750072002F2A2A /* XCTest.framework in Frameworks */,
-				AB6FB00B18750072002F2A2A /* UIKit.framework in Frameworks */,
-				AB6FB00A18750072002F2A2A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				AB6FAFF518750072002F2A2A /* Pig Spinner */,
-				AB6FB00E18750072002F2A2A /* Pig SpinnerTests */,
-				AB6FAFEE18750072002F2A2A /* Frameworks */,
 				AB6FAFED18750072002F2A2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,20 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				AB6FAFEC18750072002F2A2A /* Pig Spinner.app */,
-				AB6FB00718750072002F2A2A /* Pig SpinnerTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AB6FAFEE18750072002F2A2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB6FAFEF18750072002F2A2A /* Foundation.framework */,
-				AB6FAFF118750072002F2A2A /* CoreGraphics.framework */,
-				AB6FAFF318750072002F2A2A /* UIKit.framework */,
-				AB6FB00818750072002F2A2A /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AB6FAFF518750072002F2A2A /* Pig Spinner */ = {
@@ -142,24 +89,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB6FB00E18750072002F2A2A /* Pig SpinnerTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB6FB01418750072002F2A2A /* Pig_SpinnerTests.m */,
-				AB6FB00F18750072002F2A2A /* Supporting Files */,
-			);
-			path = "Pig SpinnerTests";
-			sourceTree = "<group>";
-		};
-		AB6FB00F18750072002F2A2A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB6FB01018750072002F2A2A /* Pig SpinnerTests-Info.plist */,
-				AB6FB01118750072002F2A2A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,24 +109,6 @@
 			productReference = AB6FAFEC18750072002F2A2A /* Pig Spinner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB6FB00618750072002F2A2A /* Pig SpinnerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB6FB01B18750072002F2A2A /* Build configuration list for PBXNativeTarget "Pig SpinnerTests" */;
-			buildPhases = (
-				AB6FB00318750072002F2A2A /* Sources */,
-				AB6FB00418750072002F2A2A /* Frameworks */,
-				AB6FB00518750072002F2A2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB6FB00D18750072002F2A2A /* PBXTargetDependency */,
-			);
-			name = "Pig SpinnerTests";
-			productName = "Pig SpinnerTests";
-			productReference = AB6FB00718750072002F2A2A /* Pig SpinnerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,11 +118,6 @@
 				CLASSPREFIX = RCW;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rubber City Wizards";
-				TargetAttributes = {
-					AB6FB00618750072002F2A2A = {
-						TestTargetID = AB6FAFEB18750072002F2A2A;
-					};
-				};
 			};
 			buildConfigurationList = AB6FAFE718750072002F2A2A /* Build configuration list for PBXProject "Pig Spinner" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -226,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				AB6FAFEB18750072002F2A2A /* Pig Spinner */,
-				AB6FB00618750072002F2A2A /* Pig SpinnerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,14 +145,6 @@
 				AB6FB02D18750CB2002F2A2A /* spinner.png in Resources */,
 				AB6FB02A187508D9002F2A2A /* background.png in Resources */,
 				AB6FB00218750072002F2A2A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB6FB00518750072002F2A2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB6FB01318750072002F2A2A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,37 +162,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB6FB00318750072002F2A2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB6FB01518750072002F2A2A /* Pig_SpinnerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB6FB00D18750072002F2A2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB6FAFEB18750072002F2A2A /* Pig Spinner */;
-			targetProxy = AB6FB00C18750072002F2A2A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB6FAFF818750072002F2A2A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AB6FAFF918750072002F2A2A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AB6FB01118750072002F2A2A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB6FB01218750072002F2A2A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -403,46 +276,6 @@
 			};
 			name = Release;
 		};
-		AB6FB01C18750072002F2A2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pig Spinner.app/Pig Spinner";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pig Spinner/Pig Spinner-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Pig SpinnerTests/Pig SpinnerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AB6FB01D18750072002F2A2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pig Spinner.app/Pig Spinner";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pig Spinner/Pig Spinner-Prefix.pch";
-				INFOPLIST_FILE = "Pig SpinnerTests/Pig SpinnerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,15 +293,6 @@
 			buildConfigurations = (
 				AB6FB01918750072002F2A2A /* Debug */,
 				AB6FB01A18750072002F2A2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB6FB01B18750072002F2A2A /* Build configuration list for PBXNativeTarget "Pig SpinnerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB6FB01C18750072002F2A2A /* Debug */,
-				AB6FB01D18750072002F2A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

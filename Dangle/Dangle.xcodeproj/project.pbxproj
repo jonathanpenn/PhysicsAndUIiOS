@@ -13,9 +13,6 @@
 		AB16D433187A655D00917E93 /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB16D42B187A655D00917E93 /* RCWAppDelegate.m */; };
 		AB16D434187A655D00917E93 /* RCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB16D42D187A655D00917E93 /* RCWViewController.m */; };
 		AB16D435187A655D00917E93 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB16D42E187A655D00917E93 /* Storyboard.storyboard */; };
-		ABFC13131876061B007CC01C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFC13121876061B007CC01C /* Foundation.framework */; };
-		ABFC13151876061B007CC01C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFC13141876061B007CC01C /* CoreGraphics.framework */; };
-		ABFC13171876061B007CC01C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFC13161876061B007CC01C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +27,6 @@
 		AB16D42D187A655D00917E93 /* RCWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWViewController.m; sourceTree = "<group>"; };
 		AB16D42E187A655D00917E93 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		ABFC130F1876061B007CC01C /* Dangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABFC13121876061B007CC01C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ABFC13141876061B007CC01C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABFC13161876061B007CC01C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ABFC132B1876061B007CC01C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFC13151876061B007CC01C /* CoreGraphics.framework in Frameworks */,
-				ABFC13171876061B007CC01C /* UIKit.framework in Frameworks */,
-				ABFC13131876061B007CC01C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				AB16D423187A655D00917E93 /* Dangle */,
-				ABFC13111876061B007CC01C /* Frameworks */,
 				ABFC13101876061B007CC01C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,17 +79,6 @@
 				ABFC130F1876061B007CC01C /* Dangle.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ABFC13111876061B007CC01C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABFC13121876061B007CC01C /* Foundation.framework */,
-				ABFC13141876061B007CC01C /* CoreGraphics.framework */,
-				ABFC13161876061B007CC01C /* UIKit.framework */,
-				ABFC132B1876061B007CC01C /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

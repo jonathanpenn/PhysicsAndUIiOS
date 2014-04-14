@@ -9,32 +9,14 @@
 /* Begin PBXBuildFile section */
 		AB4ADFD1187A9303001C73AE /* RCWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4ADFD0187A9303001C73AE /* RCWCollectionViewCell.m */; };
 		ABABA60018775D67000DBCEC /* RCWSpringLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABABA5FF18775D67000DBCEC /* RCWSpringLayout.m */; };
-		ABC5C28A1877404D00E58803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C2891877404D00E58803 /* Foundation.framework */; };
-		ABC5C28C1877404D00E58803 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C28B1877404D00E58803 /* CoreGraphics.framework */; };
-		ABC5C28E1877404D00E58803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C28D1877404D00E58803 /* UIKit.framework */; };
 		ABC5C2941877404D00E58803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C2921877404D00E58803 /* InfoPlist.strings */; };
 		ABC5C2961877404D00E58803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C2951877404D00E58803 /* main.m */; };
 		ABC5C29A1877404D00E58803 /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C2991877404D00E58803 /* RCWAppDelegate.m */; };
 		ABC5C29C1877404D00E58803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C29B1877404D00E58803 /* Images.xcassets */; };
-		ABC5C2A31877404D00E58803 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C2A21877404D00E58803 /* XCTest.framework */; };
-		ABC5C2A41877404D00E58803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C2891877404D00E58803 /* Foundation.framework */; };
-		ABC5C2A51877404D00E58803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5C28D1877404D00E58803 /* UIKit.framework */; };
-		ABC5C2AD1877404D00E58803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C2AB1877404D00E58803 /* InfoPlist.strings */; };
-		ABC5C2AF1877404D00E58803 /* DyanmicCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C2AE1877404D00E58803 /* DyanmicCollectionTests.m */; };
 		ABC5C2B91877406000E58803 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C2B81877406000E58803 /* Storyboard.storyboard */; };
 		ABC5C2BC187740C500E58803 /* RCWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C2BB187740C500E58803 /* RCWCollectionViewController.m */; };
 		ABC5C2C21877445700E58803 /* RCWDynamicLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C2C11877445700E58803 /* RCWDynamicLayout.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ABC5C2A61877404D00E58803 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABC5C27E1877404D00E58803 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABC5C2851877404D00E58803;
-			remoteInfo = DyanmicCollection;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AB4ADFCF187A9303001C73AE /* RCWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWCollectionViewCell.h; sourceTree = "<group>"; };
@@ -42,9 +24,6 @@
 		ABABA5FE18775D67000DBCEC /* RCWSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWSpringLayout.h; sourceTree = "<group>"; };
 		ABABA5FF18775D67000DBCEC /* RCWSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWSpringLayout.m; sourceTree = "<group>"; };
 		ABC5C2861877404D00E58803 /* DyanmicCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyanmicCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC5C2891877404D00E58803 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ABC5C28B1877404D00E58803 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABC5C28D1877404D00E58803 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABC5C2911877404D00E58803 /* DyanmicCollection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DyanmicCollection-Info.plist"; sourceTree = "<group>"; };
 		ABC5C2931877404D00E58803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC5C2951877404D00E58803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,11 +31,6 @@
 		ABC5C2981877404D00E58803 /* RCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWAppDelegate.h; sourceTree = "<group>"; };
 		ABC5C2991877404D00E58803 /* RCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWAppDelegate.m; sourceTree = "<group>"; };
 		ABC5C29B1877404D00E58803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ABC5C2A11877404D00E58803 /* DyanmicCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyanmicCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC5C2A21877404D00E58803 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ABC5C2AA1877404D00E58803 /* DyanmicCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DyanmicCollectionTests-Info.plist"; sourceTree = "<group>"; };
-		ABC5C2AC1877404D00E58803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABC5C2AE1877404D00E58803 /* DyanmicCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyanmicCollectionTests.m; sourceTree = "<group>"; };
 		ABC5C2B81877406000E58803 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		ABC5C2BA187740C500E58803 /* RCWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWCollectionViewController.h; sourceTree = "<group>"; };
 		ABC5C2BB187740C500E58803 /* RCWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWCollectionViewController.m; sourceTree = "<group>"; };
@@ -69,19 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC5C28C1877404D00E58803 /* CoreGraphics.framework in Frameworks */,
-				ABC5C28E1877404D00E58803 /* UIKit.framework in Frameworks */,
-				ABC5C28A1877404D00E58803 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC5C29E1877404D00E58803 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC5C2A31877404D00E58803 /* XCTest.framework in Frameworks */,
-				ABC5C2A51877404D00E58803 /* UIKit.framework in Frameworks */,
-				ABC5C2A41877404D00E58803 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				ABC5C28F1877404D00E58803 /* DyanmicCollection */,
-				ABC5C2A81877404D00E58803 /* DyanmicCollectionTests */,
-				ABC5C2881877404D00E58803 /* Frameworks */,
 				ABC5C2871877404D00E58803 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,20 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ABC5C2861877404D00E58803 /* DyanmicCollection.app */,
-				ABC5C2A11877404D00E58803 /* DyanmicCollectionTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ABC5C2881877404D00E58803 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABC5C2891877404D00E58803 /* Foundation.framework */,
-				ABC5C28B1877404D00E58803 /* CoreGraphics.framework */,
-				ABC5C28D1877404D00E58803 /* UIKit.framework */,
-				ABC5C2A21877404D00E58803 /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ABC5C28F1877404D00E58803 /* DyanmicCollection */ = {
@@ -149,24 +96,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ABC5C2A81877404D00E58803 /* DyanmicCollectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				ABC5C2AE1877404D00E58803 /* DyanmicCollectionTests.m */,
-				ABC5C2A91877404D00E58803 /* Supporting Files */,
-			);
-			path = DyanmicCollectionTests;
-			sourceTree = "<group>";
-		};
-		ABC5C2A91877404D00E58803 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABC5C2AA1877404D00E58803 /* DyanmicCollectionTests-Info.plist */,
-				ABC5C2AB1877404D00E58803 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,24 +116,6 @@
 			productReference = ABC5C2861877404D00E58803 /* DyanmicCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABC5C2A01877404D00E58803 /* DyanmicCollectionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABC5C2B51877404D00E58803 /* Build configuration list for PBXNativeTarget "DyanmicCollectionTests" */;
-			buildPhases = (
-				ABC5C29D1877404D00E58803 /* Sources */,
-				ABC5C29E1877404D00E58803 /* Frameworks */,
-				ABC5C29F1877404D00E58803 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ABC5C2A71877404D00E58803 /* PBXTargetDependency */,
-			);
-			name = DyanmicCollectionTests;
-			productName = DyanmicCollectionTests;
-			productReference = ABC5C2A11877404D00E58803 /* DyanmicCollectionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,11 +125,6 @@
 				CLASSPREFIX = RCW;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rubber City Wizards";
-				TargetAttributes = {
-					ABC5C2A01877404D00E58803 = {
-						TestTargetID = ABC5C2851877404D00E58803;
-					};
-				};
 			};
 			buildConfigurationList = ABC5C2811877404D00E58803 /* Build configuration list for PBXProject "DyanmicCollection" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -233,7 +139,6 @@
 			projectRoot = "";
 			targets = (
 				ABC5C2851877404D00E58803 /* DyanmicCollection */,
-				ABC5C2A01877404D00E58803 /* DyanmicCollectionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,14 +151,6 @@
 				ABC5C2941877404D00E58803 /* InfoPlist.strings in Resources */,
 				ABC5C29C1877404D00E58803 /* Images.xcassets in Resources */,
 				ABC5C2B91877406000E58803 /* Storyboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC5C29F1877404D00E58803 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC5C2AD1877404D00E58803 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,37 +170,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABC5C29D1877404D00E58803 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC5C2AF1877404D00E58803 /* DyanmicCollectionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ABC5C2A71877404D00E58803 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABC5C2851877404D00E58803 /* DyanmicCollection */;
-			targetProxy = ABC5C2A61877404D00E58803 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ABC5C2921877404D00E58803 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ABC5C2931877404D00E58803 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ABC5C2AB1877404D00E58803 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABC5C2AC1877404D00E58803 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -407,46 +280,6 @@
 			};
 			name = Release;
 		};
-		ABC5C2B61877404D00E58803 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DyanmicCollection.app/DyanmicCollection";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DyanmicCollection/DyanmicCollection-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DyanmicCollectionTests/DyanmicCollectionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		ABC5C2B71877404D00E58803 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DyanmicCollection.app/DyanmicCollection";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DyanmicCollection/DyanmicCollection-Prefix.pch";
-				INFOPLIST_FILE = "DyanmicCollectionTests/DyanmicCollectionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,15 +297,6 @@
 			buildConfigurations = (
 				ABC5C2B31877404D00E58803 /* Debug */,
 				ABC5C2B41877404D00E58803 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABC5C2B51877404D00E58803 /* Build configuration list for PBXNativeTarget "DyanmicCollectionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABC5C2B61877404D00E58803 /* Debug */,
-				ABC5C2B71877404D00E58803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
