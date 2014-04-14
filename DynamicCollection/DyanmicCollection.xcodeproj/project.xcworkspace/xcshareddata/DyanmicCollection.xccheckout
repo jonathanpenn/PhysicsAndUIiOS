@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6C9DDD3-3132-4FF6-88B9-489766D94060</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DyanmicCollection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4987D545-54D0-4AC9-99C5-B048068DA71B</key>
+		<string>ssh://github.com/jonathanpenn/PhysicsAndUIiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DynamicCollection/DyanmicCollection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4987D545-54D0-4AC9-99C5-B048068DA71B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jonathanpenn/PhysicsAndUIiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4987D545-54D0-4AC9-99C5-B048068DA71B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4987D545-54D0-4AC9-99C5-B048068DA71B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhysicsAndUIiOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

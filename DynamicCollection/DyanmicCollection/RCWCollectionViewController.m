@@ -33,7 +33,7 @@
 {
     RCWCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
 
-    cell.label.text = [NSString stringWithFormat:@"Cell #%d", indexPath.row];
+    cell.label.text = [NSString stringWithFormat:@"Cell #%ld", (long)indexPath.row];
     cell.layer.shouldRasterize = YES;
     cell.layer.rasterizationScale = 2.0;
     return cell;
